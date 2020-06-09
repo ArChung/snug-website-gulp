@@ -1,0 +1,32 @@
+#header
+  width: 100%
+  padding: 0 50px
+  display: flex
+  justify-content: space-between
+  height: 85px
+  align-items: center
+  box-shadow: 0 0 10px rgba(black,.3)
+  position: fixed
+  top: 0
+  background-color: #fff
+  z-index: 100
+  +phone 
+    justify-content: space-around
+  .logo
+    +bg('logo.png')
+
+  .tools
+    display: flex
+    font-size: 18px
+    font-weight: 600
+    > *
+      padding: 0 15px
+    .icon-phone
+      +bg('icon-phone.png')
+      margin-top: -3px
+      margin-right: 2px
+    .icon-cart
+      +bg('icon-cart.png')
+      margin-top: -3px
+      margin-right: 2px
+

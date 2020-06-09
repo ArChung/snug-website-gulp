@@ -1,0 +1,177 @@
+// index.sass
+.index
+  width: 100%
+  height: 100vh
+  +coverBg
+  +bgi('bg1-1.jpg')
+  +phone
+    +bgi('bg1-1-m.jpg')
+    height: 160vw
+  .content
+    width: 65%
+    height: 100%
+    position: relative
+    display: flex
+    align-items: center
+    justify-content: center
+    +phone 
+      width: 100%
+      max-width: 100%
+      padding: 0 12%
+      padding-top: 150px
+      align-items: flex-start
+    .p-title
+      text-align: center
+      width: 100%
+
+
+.p2
+  padding: 150px 50px
+  display: flex
+  justify-content: center
+  align-items: center  
+  +coverBg('bg2.jpg')
+  +phone
+    +bgi('bg2-m.jpg')
+    padding: 100px 50px
+  .content
+    text-align: center
+    line-height: 2.5em
+
+.p3
+  height: 100vh
+  +coverBg('bg3.jpg')
+  +phone
+    +bgi('bg3-m.jpg')
+    height: 100vw
+  position: relative
+  .content
+    position: absolute
+    bottom: 25%
+    right: 10%
+    max-width: 380px
+    line-height: 2.5em
+    +phone
+      right: auto
+      bottom: auto
+      top: 45%
+      transform: translate(0, -50%)
+      left: 33vw
+      width: 65vw
+
+.p4
+  height: 100vh
+  +coverBg('bg4.jpg')
+  +phone
+    +bgi('bg4-m.jpg')
+    height: 130vw
+  position: relative
+  .content
+    position: absolute
+    top: 15%
+    left: 4%
+    line-height: 2.5em
+    +phone
+      top: 5%
+      left: 4%
+      right: 20%
+    h1
+      font-size: 26px
+    h2 
+      font-size: 28px
+
+  .stamp
+    position: absolute
+    bottom: 40px
+    right: 150px
+    padding: 20px 30px
+    border: 1px solid white
+    border-radius: 5px
+    +phone 
+      right: 20px
+
+.p5
+  height: 100vh
+  +coverBg('bg5.jpg')
+  +phone
+    +bgi('bg5-m.jpg')
+    height: 180vw
+  position: relative
+  .content
+    position: absolute
+    left: 50%
+    width: 50%
+    display: flex
+    align-items: center
+    justify-content: center
+    height: 100%
+    line-height: 2.5em
+    > div
+      max-width: 666px
+      width: 100%
+    +phone
+      left: 0
+      width: 100%
+      top: 0  
+      height: 55%
+      padding: 0 20px
+      > div 
+        max-width: 100%
+
+    
+    h1
+      font-size: 26px
+    h2 
+      font-size: 28px
+    .dot-line
+      +bg('p5-t4.png')
+      max-width: 100%
+    .certificates
+      display: flex
+      +phone
+        justify-content: space-between
+      .certificate
+        margin-right: 25px
+        +phone
+          margin-right: 0
+  .stamp
+    position: absolute
+    bottom: 20px
+    left: 20px
+    padding: 20px 30px
+    border: 1px solid rgba(black,.4)
+    border-radius: 5px
+    +phone
+      padding: 15px 20px 
+      img 
+        width: 150px
+
+.p6
+  height: 100vh
+  position: relative
+  +coverBg('bg6.jpg')
+  background-attachment: fixed
+  +phone
+    +bgi('bg6-m.jpg')
+    height: 125vw
+    background-attachment: inherit
+  .content
+    padding: 50px 50px 30px
+    border: 1px solid rgba(white,.4)
+    border-radius: 5px
+    position: absolute
+    bottom: 70px
+    right: 150px
+    max-width: 554px
+    +phone
+      bottom: 25px
+      right: auto
+      width: 95%
+      left: 50%
+      transform: translate(-50%, 0)
+
+.store
+  background-color: white
+  padding: 100px 0
+  .content
+    text-align: center

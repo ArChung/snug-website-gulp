@@ -1,0 +1,108 @@
+// commons
+.icon
+  display: inline-block
+  vertical-align: text-top
+
+img
+  max-width: 100%
+
+main
+  // margin-top: 85px
+
+.hide-text
+  text-indent: 100%
+  white-space: nowrap
+  overflow: hidden
+
+.skew-1
+  transform: skew(-7deg)
+
+.oran-txt
+  color: #e66045
+.oran2-txt
+  color: #d9925e
+
+.blue-txt
+  color: #5eafd9
+
+.blue2-txt
+  color: #346b99
+.green-txt
+  color: #7fa45a
+.gray-txt
+  color: #494949
+.green2-txt
+  color: #54a767
+.green3-txt
+  color: #8ec15c
+.white-txt
+  color: #fff
+.ls-1
+  letter-spacing: .16em
+.red-txt
+  color: #cc3626
+.fw-b
+  font-weight: bold
+
+h1,h2,p
+  margin: 0
+
+.title-content
+  font-size: 24px
+  line-height: 1.8em
+  +phone
+    font-size: 4.5vw
+    line-height: 1.5em
+
+.mt-1
+  margin-top: 10px
+
+.mt-2
+  margin-top: 18px
+
+.mt-3
+  margin-top: 25px
+
+.logo-inline
+  +bg('logo-inline.png')
+  margin-top: -4px
+  margin-right: 3px
+
+.df
+  display: flex
+  &.ai-c
+    align-items: center
+  &.jc-c
+    justify-content: center
+
+.logo-inline2
+  +bg('logo-white-inline.png')
+  margin-top: -4px
+  margin-right: 3px
+
+.icon-fb
+  +bg('icon-fb.png')
+  margin: 0 10px
+
+.icon-line
+  +bg('icon-line.png')
+  margin: 0 10px
+
+.icon-phone2
+  +bg('icon-phone2.png')
+  margin: 0 10px
+
+.tempHide
+  transform: translate(0, 50px)
+  opacity: 0
+  +dTime(.8s)
+
+  &.left
+    transform: translate(-50px, 0px)
+  &.right
+    transform: translate(50px, 0px)
+  &.top
+    transform: translate(0px, -50px)
+  &.show
+    opacity: 1
+    transform: translate(0, 0)
