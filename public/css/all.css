@@ -803,7 +803,7 @@ h1, h2, p {
   @media screen and (max-width: 768px) {
     .p4 {
       background-image: url("../images/bg4-m.jpg");
-      height: 130vw; } }
+      height: 140vw; } }
   .p4 .content {
     position: absolute;
     top: 15%;
@@ -811,7 +811,7 @@ h1, h2, p {
     line-height: 2.5em; }
     @media screen and (max-width: 768px) {
       .p4 .content {
-        top: 5%;
+        top: 8%;
         left: 4%;
         right: 20%; } }
     .p4 .content h1 {
