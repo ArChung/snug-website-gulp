@@ -496,6 +496,62 @@ h1, h2, p {
         -ms-transform: translate(0, 0);
             transform: translate(0, 0); }
 
+@-webkit-keyframes wobble-vertical {
+  16.65% {
+    -webkit-transform: translate(0, 8px);
+            transform: translate(0, 8px); }
+  33.3% {
+    -webkit-transform: translate(0, -6px);
+            transform: translate(0, -6px); }
+  49.95% {
+    -webkit-transform: translate(0, 4px);
+            transform: translate(0, 4px); }
+  66.6% {
+    -webkit-transform: translate(0, -2px);
+            transform: translate(0, -2px); }
+  83.25% {
+    -webkit-transform: translate(0, 1px);
+            transform: translate(0, 1px); }
+  100% {
+    -webkit-transform: translate(0, 0px);
+            transform: translate(0, 0px); } }
+
+@keyframes wobble-vertical {
+  16.65% {
+    -webkit-transform: translate(0, 8px);
+            transform: translate(0, 8px); }
+  33.3% {
+    -webkit-transform: translate(0, -6px);
+            transform: translate(0, -6px); }
+  49.95% {
+    -webkit-transform: translate(0, 4px);
+            transform: translate(0, 4px); }
+  66.6% {
+    -webkit-transform: translate(0, -2px);
+            transform: translate(0, -2px); }
+  83.25% {
+    -webkit-transform: translate(0, 1px);
+            transform: translate(0, 1px); }
+  100% {
+    -webkit-transform: translate(0, 0px);
+            transform: translate(0, 0px); } }
+
+@-webkit-keyframes buzz {
+  50% {
+    -webkit-transform: translateX(1px) rotate(3deg);
+            transform: translateX(1px) rotate(3deg); }
+  100% {
+    -webkit-transform: translateX(-1px) rotate(-3deg);
+            transform: translateX(-1px) rotate(-3deg); } }
+
+@keyframes buzz {
+  50% {
+    -webkit-transform: translateX(1px) rotate(3deg);
+            transform: translateX(1px) rotate(3deg); }
+  100% {
+    -webkit-transform: translateX(-1px) rotate(-3deg);
+            transform: translateX(-1px) rotate(-3deg); } }
+
 #header {
   width: 100%;
   padding: 0 50px;
@@ -531,18 +587,84 @@ h1, h2, p {
     font-weight: 600; }
     #header .tools > * {
       padding: 0 15px; }
+    @media screen and (min-width: 769px) {
+      #header .tools .tel:hover .icon {
+        -webkit-animation: buzz .15s infinite;
+                animation: buzz .15s infinite; }
+      #header .tools .cart:hover .icon {
+        -webkit-transform: skew(-15deg) translateX(2px);
+            -ms-transform: skew(-15deg) translateX(2px);
+                transform: skew(-15deg) translateX(2px); } }
     #header .tools .icon-phone {
       width: 25px;
       height: 25px;
       background-image: url("../images/icon-phone.png");
       margin-top: -3px;
       margin-right: 2px; }
+      @media screen and (max-width: 768px) {
+        #header .tools .icon-phone {
+          width: 33px;
+          height: 33px;
+          background-image: url("../images/icon-phone-w.png");
+          position: relative;
+          top: -5px;
+          margin-right: 5px; } }
     #header .tools .icon-cart {
       width: 29px;
       height: 22px;
       background-image: url("../images/icon-cart.png");
       margin-top: -3px;
-      margin-right: 2px; }
+      margin-right: 2px;
+      -webkit-transition: all 0.2s;
+      -o-transition: all 0.2s;
+      transition: all 0.2s; }
+      @media screen and (max-width: 768px) {
+        #header .tools .icon-cart {
+          width: 39px;
+          height: 29px;
+          background-image: url("../images/icon-cart-w.png");
+          position: relative;
+          top: -5px;
+          margin-right: 5px; } }
+    @media screen and (max-width: 768px) {
+      #header .tools {
+        position: fixed;
+        height: 100px;
+        width: 100%;
+        left: 0;
+        bottom: 0;
+        background-color: #85b073;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        font-size: 3.5vw; }
+        #header .tools .tel {
+          height: 100%;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-pack: center;
+              -ms-flex-pack: center;
+                  justify-content: center;
+          -webkit-box-align: center;
+              -ms-flex-align: center;
+                  align-items: center;
+          color: white;
+          width: 60%; }
+        #header .tools .cart {
+          height: 100%;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-pack: center;
+              -ms-flex-pack: center;
+                  justify-content: center;
+          -webkit-box-align: center;
+              -ms-flex-align: center;
+                  align-items: center;
+          color: white;
+          width: 40%;
+          background-color: #61904e; } }
 
 #footer {
   width: 100%;
@@ -571,6 +693,17 @@ h1, h2, p {
         margin-top: 25px; } }
   #footer .socials .phone .txt {
     font-size: 20px; }
+
+#chatBtn {
+  width: 129px;
+  height: 129px;
+  background-image: url("../images/floatBtn.png");
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  z-index: 20;
+  -webkit-animation: wobble-vertical 2s infinite;
+          animation: wobble-vertical 2s infinite; }
 
 .index {
   width: 100%;

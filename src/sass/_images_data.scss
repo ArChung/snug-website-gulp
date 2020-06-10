@@ -186,6 +186,16 @@ $compass-imagehelper-imagesmap: (
     height: '880',
     hash: '43d8776e85f735585fe828beb021523d'
   ),
+  'floatBtn.png': (
+    width: '129',
+    height: '129',
+    hash: '8a21282e74518eae3b02a08c7207a582'
+  ),
+  'icon-cart-w.png': (
+    width: '39',
+    height: '29',
+    hash: 'c086061a9defc535bf3c82b97ebc8fb4'
+  ),
   'icon-cart.png': (
     width: '29',
     height: '22',
@@ -200,6 +210,11 @@ $compass-imagehelper-imagesmap: (
     width: '45',
     height: '45',
     hash: '683ec351bb9fd82cba4973d73d1e9edb'
+  ),
+  'icon-phone-w.png': (
+    width: '33',
+    height: '33',
+    hash: '73ad1c20f052476b694e5e3a5d8d98e5'
   ),
   'icon-phone.png': (
     width: '25',
@@ -525,6 +540,38 @@ $compass-imagehelper-imagesmap: (
   background-image: image-url('bg6.jpg');
 }
 
+%floatBtn-png {
+  // Available properties:
+  // prefix: ;
+  // width: 129;
+  // height: 129;
+  // filename: floatBtn.png;
+  // basename: floatBtn;
+  // dirname: images;
+  // ext: .png;
+  // path: floatBtn.png;
+  // fullname: floatBtn-png;
+  // mime: image/png;
+  // hash: 8a21282e74518eae3b02a08c7207a582;
+  background-image: image-url('floatBtn.png');
+}
+
+%icon-cart-w-png {
+  // Available properties:
+  // prefix: ;
+  // width: 39;
+  // height: 29;
+  // filename: icon-cart-w.png;
+  // basename: icon-cart-w;
+  // dirname: images;
+  // ext: .png;
+  // path: icon-cart-w.png;
+  // fullname: icon-cart-w-png;
+  // mime: image/png;
+  // hash: c086061a9defc535bf3c82b97ebc8fb4;
+  background-image: image-url('icon-cart-w.png');
+}
+
 %icon-cart-png {
   // Available properties:
   // prefix: ;
@@ -571,6 +618,22 @@ $compass-imagehelper-imagesmap: (
   // mime: image/png;
   // hash: 683ec351bb9fd82cba4973d73d1e9edb;
   background-image: image-url('icon-line.png');
+}
+
+%icon-phone-w-png {
+  // Available properties:
+  // prefix: ;
+  // width: 33;
+  // height: 33;
+  // filename: icon-phone-w.png;
+  // basename: icon-phone-w;
+  // dirname: images;
+  // ext: .png;
+  // path: icon-phone-w.png;
+  // fullname: icon-phone-w-png;
+  // mime: image/png;
+  // hash: 73ad1c20f052476b694e5e3a5d8d98e5;
+  background-image: image-url('icon-phone-w.png');
 }
 
 %icon-phone-png {
