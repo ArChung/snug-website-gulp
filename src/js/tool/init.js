@@ -15,11 +15,11 @@ function init_base() {
     if (bIsAndroid) {
       const deviceWidth = screen.width;
       const getTargetDensitydpi = VIEWPORT_WIDTH / deviceWidth * window.devicePixelRatio * 160;
-      const targetDensitydpi = `target-densitydpi=${getTargetDensitydpi}, width=${VIEWPORT_WIDTH}, user-scalable=no`;
+      const targetDensitydpi = `target-densitydpi=${getTargetDensitydpi}, width=${VIEWPORT_WIDTH}`;
 
       viewport.setAttribute('content', targetDensitydpi);
     } else {
-      viewport.setAttribute('content', `width=${VIEWPORT_WIDTH} user-scalable=0`);
+      viewport.setAttribute('content', `width=${VIEWPORT_WIDTH}`);
 
     }
   }
