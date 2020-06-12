@@ -6,7 +6,7 @@ inView.offset(150);
 
 $(document).ready(() => {
 
-  console.log(ChungTool.getUrlParameter('info')==='2');
+  console.log(ChungTool.getUrlParameter('info') === '2');
 
   if (ChungTool.getUrlParameter('info') === '2') {
     $('#index-t1').addClass('hide');
@@ -17,7 +17,24 @@ $(document).ready(() => {
   init_simple_ani();
   init_motus_animation();
 
+
+  initModal();
+
+
+
 });
+
+function initModal() {
+  $('.popBtn').click(function () {
+    const id = $(this).attr('data-pop');
+
+    $(".fade-modal").find('img').attr('src', `./images/prof-${id}.jpg`)
+
+    $(".fade-modal").modal({
+      fadeDuration: 200
+    });
+  });
+}
 
 
 function init_simple_ani() {
@@ -30,7 +47,7 @@ function init_simple_ani() {
   // })
 }
 
-function init_motus_animation(){
+function init_motus_animation() {
   Motus.addAnimation(new Motus.Animation({
     $el: $('.p2')[0],
     keyframes: [{
@@ -42,6 +59,6 @@ function init_motus_animation(){
     ],
   }));
 
-  
+
 
 }
