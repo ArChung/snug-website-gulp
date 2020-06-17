@@ -19,10 +19,49 @@ $(document).ready(() => {
 
 
   initModal();
+  initPages();
 
-
+  $("#chatBtn").click(()=>{
+    ChungTool.pageScrollAni($('.store').offset().top)
+  })
 
 });
+
+function initPages() {
+  setInterval(() => {
+    const _h = $(window).height();
+    let activeId = 0;
+    $('section').each((index, el) => {
+      const offest = ($(el).offset().top - $(document).scrollTop() - _h + 200);
+      if (offest < 0) {
+        activeId = index;
+      }
+    })
+    checkSideBar(activeId);
+    checkScrollBtn(activeId);
+    checkBuyBtn(activeId);
+  }, 200);
+
+  function checkSideBar(id) {
+    $('#sideContainer').find('li').eq(id).addClass('active').siblings('li').removeClass('active');
+  }
+
+  function checkScrollBtn(id) {
+    if (id > 0) {
+      $("#scrollBtn").removeClass('show');
+    } else {
+      $("#scrollBtn").addClass('show');
+    }
+  }
+
+  function checkBuyBtn(id) {
+    if (id >= 6) {
+      $("#chatBtn").removeClass('show');
+    } else {
+      $("#chatBtn").addClass('show');
+    }
+  }
+}
 
 function initModal() {
   $('.popBtn').click(function () {

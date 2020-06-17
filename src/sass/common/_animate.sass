@@ -1,26 +1,36 @@
 @keyframes wobble-vertical
-	16.65% 
-    transform: translate(0, 8px)
-	33.3% 
-    transform: translate(0, -6px)
-	49.95% 
-    transform: translate(0, 4px)
-	66.6% 
-    transform: translate(0, -2px)
-	83.25% 
-    transform: translate(0, 1px)
-	100% 
-    transform: translate(0, 0px)
+    16.65% 
+        transform: translate(0, 8px)
+    33.3% 
+        transform: translate(0, -6px)
+    49.95% 
+        transform: translate(0, 4px)
+    66.6% 
+        transform: translate(0, -2px)
+    83.25% 
+        transform: translate(0, 1px)
+    100% 
+        transform: translate(0, 0px)
 
 @keyframes buzz
-	50% 
-    transform: translateX(1px) rotate(3deg)
-	100% 
-    transform: translateX(-1px) rotate(-3deg)
+    50% 
+        transform: translateX(1px) rotate(3deg)
+    100% 
+        transform: translateX(-1px) rotate(-3deg)
+
+@keyframes updown
+    0% 
+        transform: translateY(0px) 
+    50% 
+        transform: translateY(-8px)
+    100% 
+        transform: translateY(0px) 
 
 
-	
+    
 =buzz
-  animation: buzz .15s infinite 
+    animation: buzz .15s infinite 
 =wobble-vertical
-  animation: wobble-vertical 2s infinite 
+    animation: wobble-vertical 2s infinite 
+=updown
+    animation: updown 1s infinite 
