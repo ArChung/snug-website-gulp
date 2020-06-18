@@ -21,7 +21,7 @@ $(document).ready(() => {
   initModal();
   initPages();
 
-  $("#chatBtn").click(()=>{
+  $(".storeBtn").click(()=>{
     ChungTool.pageScrollAni($('.store').offset().top)
   })
 
