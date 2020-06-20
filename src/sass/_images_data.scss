@@ -126,232 +126,237 @@
 $compass-imagehelper-path-prefix: '../images/';
 
 $compass-imagehelper-imagesmap: (
-  'bg1-1-m.jpg': (
-    width: '750',
-    height: '1118',
-    hash: '98af4f8afa01a3dcf3b1705908c56aba'
-  ),
-  'bg1-1.jpg': (
+  'bg1_1.jpg': (
     width: '1600',
     height: '889',
     hash: '421b946d4aba4b9a96e305d40bf6b4bb'
   ),
-  'bg2-m.jpg': (
+  'bg1_1_m.jpg': (
     width: '750',
-    height: '613',
-    hash: 'faa31bb153814aed23089acb97b0ae1b'
+    height: '1118',
+    hash: '98af4f8afa01a3dcf3b1705908c56aba'
   ),
   'bg2.jpg': (
     width: '1600',
     height: '767',
     hash: '564c335d15bdaddcaec7dab01b0a2a59'
   ),
-  'bg3-m.jpg': (
+  'bg2_m.jpg': (
     width: '750',
-    height: '681',
-    hash: '3d89e5490d3c55e9d6fcf5861052a0d5'
+    height: '613',
+    hash: 'faa31bb153814aed23089acb97b0ae1b'
   ),
   'bg3.jpg': (
     width: '1600',
     height: '851',
     hash: '14a71632d7da8a187ed6a3e57a236e54'
   ),
-  'bg4-m.jpg': (
+  'bg3_m.jpg': (
     width: '750',
-    height: '920',
-    hash: 'b12126291113336790832e64132d5261'
+    height: '681',
+    hash: '3d89e5490d3c55e9d6fcf5861052a0d5'
   ),
   'bg4.jpg': (
     width: '1600',
     height: '839',
     hash: '54265f6d35fd88eaf04c6544f57dc477'
   ),
-  'bg5-m.jpg': (
+  'bg4_m.jpg': (
     width: '750',
-    height: '1360',
-    hash: 'c5e5aa479c12bf1119351fe9a2b4908f'
+    height: '920',
+    hash: 'b12126291113336790832e64132d5261'
   ),
   'bg5.jpg': (
     width: '1600',
     height: '877',
     hash: 'f9ef17fa47e4a5fca023f316b4631611'
   ),
-  'bg6-m.jpg': (
+  'bg5_m.jpg': (
     width: '750',
-    height: '902',
-    hash: '332c5589a04ba492dd5802e9dbcd941d'
+    height: '1360',
+    hash: 'c5e5aa479c12bf1119351fe9a2b4908f'
   ),
   'bg6.jpg': (
     width: '1600',
     height: '880',
     hash: '43d8776e85f735585fe828beb021523d'
   ),
+  'bg6_m.jpg': (
+    width: '750',
+    height: '902',
+    hash: '332c5589a04ba492dd5802e9dbcd941d'
+  ),
+  'cloz.png': (
+    width: '50',
+    height: '50',
+    hash: '39501ba863e7c60fcbf00ca874744fbf'
+  ),
   'floatBtn.png': (
     width: '129',
     height: '129',
     hash: '8a21282e74518eae3b02a08c7207a582'
   ),
-  'icon-cart-w.png': (
-    width: '39',
-    height: '29',
-    hash: 'c086061a9defc535bf3c82b97ebc8fb4'
-  ),
-  'icon-cart.png': (
+  'icon_cart.png': (
     width: '29',
     height: '22',
     hash: '696bf2ca170133cce234e27d4c78af54'
   ),
-  'icon-fb.png': (
+  'icon_cart_w.png': (
+    width: '39',
+    height: '29',
+    hash: 'c086061a9defc535bf3c82b97ebc8fb4'
+  ),
+  'icon_fb.png': (
     width: '45',
     height: '45',
     hash: 'f96190986fbe0266d33a6fec1c606df8'
   ),
-  'icon-line.png': (
+  'icon_line.png': (
     width: '45',
     height: '45',
     hash: '683ec351bb9fd82cba4973d73d1e9edb'
   ),
-  'icon-phone-w.png': (
-    width: '33',
-    height: '33',
-    hash: '73ad1c20f052476b694e5e3a5d8d98e5'
-  ),
-  'icon-phone.png': (
+  'icon_phone.png': (
     width: '25',
     height: '25',
     hash: '0b90d28fb41575ce54a09caacc4bdee4'
   ),
-  'icon-phone2.png': (
+  'icon_phone2.png': (
     width: '45',
     height: '45',
     hash: 'c6cee64bab7ab4355a06bf7acf810e8c'
   ),
-  'index-t1.png': (
+  'icon_phone_w.png': (
+    width: '33',
+    height: '33',
+    hash: '73ad1c20f052476b694e5e3a5d8d98e5'
+  ),
+  'index_t1.png': (
     width: '677',
     height: '96',
     hash: '010cee7162fa68b47103af887c8be29e'
   ),
-  'index-t2.png': (
+  'index_t2.png': (
     width: '641',
     height: '71',
     hash: 'b8d546a29fe9d8ad9f87fb7724c8f339'
-  ),
-  'logo-inline.png': (
-    width: '106',
-    height: '36',
-    hash: 'ab25d3bdc125b5c6e0ab2284be5a8990'
-  ),
-  'logo-white-inline.png': (
-    width: '133',
-    height: '47',
-    hash: '3ad82fe2abc958450072391dae642599'
   ),
   'logo.png': (
     width: '143',
     height: '50',
     hash: '508b9ade0b528dfcd9a17f4d073a32bf'
   ),
-  'p2-t1.png': (
+  'logo_inline.png': (
+    width: '106',
+    height: '36',
+    hash: 'ab25d3bdc125b5c6e0ab2284be5a8990'
+  ),
+  'logo_white_inline.png': (
+    width: '133',
+    height: '47',
+    hash: '3ad82fe2abc958450072391dae642599'
+  ),
+  'p2_t1.png': (
     width: '393',
     height: '28',
     hash: '0ec4dfd76eb2b5c792a7e7d0c366a608'
   ),
-  'p2-t2.png': (
+  'p2_t2.png': (
     width: '721',
     height: '109',
     hash: '679cbbdd13128b82b5e4b5379975449a'
   ),
-  'p3-t1.png': (
+  'p3_t1.png': (
     width: '274',
     height: '27',
     hash: '7eb89763300012850936e0b997937872'
   ),
-  'p3-t2.png': (
+  'p3_t2.png': (
     width: '367',
     height: '106',
     hash: 'dc53cf0fd4820f3cfbb8c50c4f98ebea'
   ),
-  'p4-t1.png': (
+  'p4_t1.png': (
     width: '305',
     height: '36',
     hash: '41305fa7aa4a6b82cfd5f37c10c6671e'
   ),
-  'p4-t2.png': (
+  'p4_t2.png': (
     width: '362',
     height: '27',
     hash: '89bb566cd2de4669decc74a4c40ecbdd'
   ),
-  'p4-t3.png': (
+  'p4_t3.png': (
     width: '548',
     height: '157',
     hash: '7f188f8dd674fd958e12511dd31d553d'
   ),
-  'p4-t4.png': (
+  'p4_t4.png': (
     width: '303',
     height: '66',
     hash: 'fdaa6c5df7c051580b386531b9e983ef'
   ),
-  'p5-a1.png': (
+  'p5_a1.png': (
     width: '173',
     height: '243',
     hash: 'ff2a27c785b357b450c2d633d9b10bae'
   ),
-  'p5-a2.png': (
+  'p5_a2.png': (
     width: '173',
     height: '243',
     hash: 'ff87e2233c3fcc3ecf60534f4a9a664a'
   ),
-  'p5-a3.png': (
+  'p5_a3.png': (
     width: '174',
     height: '243',
     hash: 'b9577975710e52dfffa011112ec875ce'
   ),
-  'p5-n1.png': (
+  'p5_n1.png': (
     width: '188',
     height: '62',
     hash: '28b852514d6f48d83bf7a1afe05e9e20'
   ),
-  'p5-t1.png': (
+  'p5_t1.png': (
     width: '393',
     height: '38',
     hash: '0af8f52ca0729604c3b408927b58bcca'
   ),
-  'p5-t2.png': (
+  'p5_t2.png': (
     width: '419',
     height: '24',
     hash: '06a96366fb603675df3b0e3f6e5a7f90'
   ),
-  'p5-t3.png': (
+  'p5_t3.png': (
     width: '508',
     height: '57',
     hash: '888195c8a27297e316ce1d498c97ebfb'
   ),
-  'p5-t4.png': (
+  'p5_t4.png': (
     width: '666',
     height: '3',
     hash: '08377c949e2a938405dc689bbeee675c'
   ),
-  'p6-t1.png': (
+  'p6_t1.png': (
     width: '290',
     height: '47',
     hash: 'ecc2686c72c748c75cdf200f99adf522'
   ),
-  'p6-t2.png': (
+  'p6_t2.png': (
     width: '473',
     height: '180',
     hash: '60582db82517ca25382b9e7fc1fffcd5'
   ),
-  'prof-1.jpg': (
+  'prof_1.jpg': (
     width: '1440',
     height: '1018',
     hash: '6dc77ba010d99b637c5d8a09cb67cc7c'
   ),
-  'prof-2.jpg': (
+  'prof_2.jpg': (
     width: '1440',
     height: '1018',
     hash: '7937d1f42ec1d9d6cefbcc5145937bbb'
   ),
-  'prof-3.jpg': (
+  'prof_3.jpg': (
     width: '1440',
     height: '1018',
     hash: 'e3a360f5ae10ba94719953c5f9606017'
@@ -378,52 +383,36 @@ $compass-imagehelper-imagesmap: (
   ),
 );
 
-%bg1-1-m-jpg {
-  // Available properties:
-  // prefix: ;
-  // width: 750;
-  // height: 1118;
-  // filename: bg1-1-m.jpg;
-  // basename: bg1-1-m;
-  // dirname: images;
-  // ext: .jpg;
-  // path: bg1-1-m.jpg;
-  // fullname: bg1-1-m-jpg;
-  // mime: image/jpeg;
-  // hash: 98af4f8afa01a3dcf3b1705908c56aba;
-  background-image: image-url('bg1-1-m.jpg');
-}
-
-%bg1-1-jpg {
+%bg1_1-jpg {
   // Available properties:
   // prefix: ;
   // width: 1600;
   // height: 889;
-  // filename: bg1-1.jpg;
-  // basename: bg1-1;
+  // filename: bg1_1.jpg;
+  // basename: bg1_1;
   // dirname: images;
   // ext: .jpg;
-  // path: bg1-1.jpg;
-  // fullname: bg1-1-jpg;
+  // path: bg1_1.jpg;
+  // fullname: bg1_1-jpg;
   // mime: image/jpeg;
   // hash: 421b946d4aba4b9a96e305d40bf6b4bb;
-  background-image: image-url('bg1-1.jpg');
+  background-image: image-url('bg1_1.jpg');
 }
 
-%bg2-m-jpg {
+%bg1_1_m-jpg {
   // Available properties:
   // prefix: ;
   // width: 750;
-  // height: 613;
-  // filename: bg2-m.jpg;
-  // basename: bg2-m;
+  // height: 1118;
+  // filename: bg1_1_m.jpg;
+  // basename: bg1_1_m;
   // dirname: images;
   // ext: .jpg;
-  // path: bg2-m.jpg;
-  // fullname: bg2-m-jpg;
+  // path: bg1_1_m.jpg;
+  // fullname: bg1_1_m-jpg;
   // mime: image/jpeg;
-  // hash: faa31bb153814aed23089acb97b0ae1b;
-  background-image: image-url('bg2-m.jpg');
+  // hash: 98af4f8afa01a3dcf3b1705908c56aba;
+  background-image: image-url('bg1_1_m.jpg');
 }
 
 %bg2-jpg {
@@ -442,20 +431,20 @@ $compass-imagehelper-imagesmap: (
   background-image: image-url('bg2.jpg');
 }
 
-%bg3-m-jpg {
+%bg2_m-jpg {
   // Available properties:
   // prefix: ;
   // width: 750;
-  // height: 681;
-  // filename: bg3-m.jpg;
-  // basename: bg3-m;
+  // height: 613;
+  // filename: bg2_m.jpg;
+  // basename: bg2_m;
   // dirname: images;
   // ext: .jpg;
-  // path: bg3-m.jpg;
-  // fullname: bg3-m-jpg;
+  // path: bg2_m.jpg;
+  // fullname: bg2_m-jpg;
   // mime: image/jpeg;
-  // hash: 3d89e5490d3c55e9d6fcf5861052a0d5;
-  background-image: image-url('bg3-m.jpg');
+  // hash: faa31bb153814aed23089acb97b0ae1b;
+  background-image: image-url('bg2_m.jpg');
 }
 
 %bg3-jpg {
@@ -474,20 +463,20 @@ $compass-imagehelper-imagesmap: (
   background-image: image-url('bg3.jpg');
 }
 
-%bg4-m-jpg {
+%bg3_m-jpg {
   // Available properties:
   // prefix: ;
   // width: 750;
-  // height: 920;
-  // filename: bg4-m.jpg;
-  // basename: bg4-m;
+  // height: 681;
+  // filename: bg3_m.jpg;
+  // basename: bg3_m;
   // dirname: images;
   // ext: .jpg;
-  // path: bg4-m.jpg;
-  // fullname: bg4-m-jpg;
+  // path: bg3_m.jpg;
+  // fullname: bg3_m-jpg;
   // mime: image/jpeg;
-  // hash: b12126291113336790832e64132d5261;
-  background-image: image-url('bg4-m.jpg');
+  // hash: 3d89e5490d3c55e9d6fcf5861052a0d5;
+  background-image: image-url('bg3_m.jpg');
 }
 
 %bg4-jpg {
@@ -506,20 +495,20 @@ $compass-imagehelper-imagesmap: (
   background-image: image-url('bg4.jpg');
 }
 
-%bg5-m-jpg {
+%bg4_m-jpg {
   // Available properties:
   // prefix: ;
   // width: 750;
-  // height: 1360;
-  // filename: bg5-m.jpg;
-  // basename: bg5-m;
+  // height: 920;
+  // filename: bg4_m.jpg;
+  // basename: bg4_m;
   // dirname: images;
   // ext: .jpg;
-  // path: bg5-m.jpg;
-  // fullname: bg5-m-jpg;
+  // path: bg4_m.jpg;
+  // fullname: bg4_m-jpg;
   // mime: image/jpeg;
-  // hash: c5e5aa479c12bf1119351fe9a2b4908f;
-  background-image: image-url('bg5-m.jpg');
+  // hash: b12126291113336790832e64132d5261;
+  background-image: image-url('bg4_m.jpg');
 }
 
 %bg5-jpg {
@@ -538,20 +527,20 @@ $compass-imagehelper-imagesmap: (
   background-image: image-url('bg5.jpg');
 }
 
-%bg6-m-jpg {
+%bg5_m-jpg {
   // Available properties:
   // prefix: ;
   // width: 750;
-  // height: 902;
-  // filename: bg6-m.jpg;
-  // basename: bg6-m;
+  // height: 1360;
+  // filename: bg5_m.jpg;
+  // basename: bg5_m;
   // dirname: images;
   // ext: .jpg;
-  // path: bg6-m.jpg;
-  // fullname: bg6-m-jpg;
+  // path: bg5_m.jpg;
+  // fullname: bg5_m-jpg;
   // mime: image/jpeg;
-  // hash: 332c5589a04ba492dd5802e9dbcd941d;
-  background-image: image-url('bg6-m.jpg');
+  // hash: c5e5aa479c12bf1119351fe9a2b4908f;
+  background-image: image-url('bg5_m.jpg');
 }
 
 %bg6-jpg {
@@ -570,6 +559,38 @@ $compass-imagehelper-imagesmap: (
   background-image: image-url('bg6.jpg');
 }
 
+%bg6_m-jpg {
+  // Available properties:
+  // prefix: ;
+  // width: 750;
+  // height: 902;
+  // filename: bg6_m.jpg;
+  // basename: bg6_m;
+  // dirname: images;
+  // ext: .jpg;
+  // path: bg6_m.jpg;
+  // fullname: bg6_m-jpg;
+  // mime: image/jpeg;
+  // hash: 332c5589a04ba492dd5802e9dbcd941d;
+  background-image: image-url('bg6_m.jpg');
+}
+
+%cloz-png {
+  // Available properties:
+  // prefix: ;
+  // width: 50;
+  // height: 50;
+  // filename: cloz.png;
+  // basename: cloz;
+  // dirname: images;
+  // ext: .png;
+  // path: cloz.png;
+  // fullname: cloz-png;
+  // mime: image/png;
+  // hash: 39501ba863e7c60fcbf00ca874744fbf;
+  background-image: image-url('cloz.png');
+}
+
 %floatBtn-png {
   // Available properties:
   // prefix: ;
@@ -586,180 +607,148 @@ $compass-imagehelper-imagesmap: (
   background-image: image-url('floatBtn.png');
 }
 
-%icon-cart-w-png {
-  // Available properties:
-  // prefix: ;
-  // width: 39;
-  // height: 29;
-  // filename: icon-cart-w.png;
-  // basename: icon-cart-w;
-  // dirname: images;
-  // ext: .png;
-  // path: icon-cart-w.png;
-  // fullname: icon-cart-w-png;
-  // mime: image/png;
-  // hash: c086061a9defc535bf3c82b97ebc8fb4;
-  background-image: image-url('icon-cart-w.png');
-}
-
-%icon-cart-png {
+%icon_cart-png {
   // Available properties:
   // prefix: ;
   // width: 29;
   // height: 22;
-  // filename: icon-cart.png;
-  // basename: icon-cart;
+  // filename: icon_cart.png;
+  // basename: icon_cart;
   // dirname: images;
   // ext: .png;
-  // path: icon-cart.png;
-  // fullname: icon-cart-png;
+  // path: icon_cart.png;
+  // fullname: icon_cart-png;
   // mime: image/png;
   // hash: 696bf2ca170133cce234e27d4c78af54;
-  background-image: image-url('icon-cart.png');
+  background-image: image-url('icon_cart.png');
 }
 
-%icon-fb-png {
+%icon_cart_w-png {
+  // Available properties:
+  // prefix: ;
+  // width: 39;
+  // height: 29;
+  // filename: icon_cart_w.png;
+  // basename: icon_cart_w;
+  // dirname: images;
+  // ext: .png;
+  // path: icon_cart_w.png;
+  // fullname: icon_cart_w-png;
+  // mime: image/png;
+  // hash: c086061a9defc535bf3c82b97ebc8fb4;
+  background-image: image-url('icon_cart_w.png');
+}
+
+%icon_fb-png {
   // Available properties:
   // prefix: ;
   // width: 45;
   // height: 45;
-  // filename: icon-fb.png;
-  // basename: icon-fb;
+  // filename: icon_fb.png;
+  // basename: icon_fb;
   // dirname: images;
   // ext: .png;
-  // path: icon-fb.png;
-  // fullname: icon-fb-png;
+  // path: icon_fb.png;
+  // fullname: icon_fb-png;
   // mime: image/png;
   // hash: f96190986fbe0266d33a6fec1c606df8;
-  background-image: image-url('icon-fb.png');
+  background-image: image-url('icon_fb.png');
 }
 
-%icon-line-png {
+%icon_line-png {
   // Available properties:
   // prefix: ;
   // width: 45;
   // height: 45;
-  // filename: icon-line.png;
-  // basename: icon-line;
+  // filename: icon_line.png;
+  // basename: icon_line;
   // dirname: images;
   // ext: .png;
-  // path: icon-line.png;
-  // fullname: icon-line-png;
+  // path: icon_line.png;
+  // fullname: icon_line-png;
   // mime: image/png;
   // hash: 683ec351bb9fd82cba4973d73d1e9edb;
-  background-image: image-url('icon-line.png');
+  background-image: image-url('icon_line.png');
 }
 
-%icon-phone-w-png {
-  // Available properties:
-  // prefix: ;
-  // width: 33;
-  // height: 33;
-  // filename: icon-phone-w.png;
-  // basename: icon-phone-w;
-  // dirname: images;
-  // ext: .png;
-  // path: icon-phone-w.png;
-  // fullname: icon-phone-w-png;
-  // mime: image/png;
-  // hash: 73ad1c20f052476b694e5e3a5d8d98e5;
-  background-image: image-url('icon-phone-w.png');
-}
-
-%icon-phone-png {
+%icon_phone-png {
   // Available properties:
   // prefix: ;
   // width: 25;
   // height: 25;
-  // filename: icon-phone.png;
-  // basename: icon-phone;
+  // filename: icon_phone.png;
+  // basename: icon_phone;
   // dirname: images;
   // ext: .png;
-  // path: icon-phone.png;
-  // fullname: icon-phone-png;
+  // path: icon_phone.png;
+  // fullname: icon_phone-png;
   // mime: image/png;
   // hash: 0b90d28fb41575ce54a09caacc4bdee4;
-  background-image: image-url('icon-phone.png');
+  background-image: image-url('icon_phone.png');
 }
 
-%icon-phone2-png {
+%icon_phone2-png {
   // Available properties:
   // prefix: ;
   // width: 45;
   // height: 45;
-  // filename: icon-phone2.png;
-  // basename: icon-phone2;
+  // filename: icon_phone2.png;
+  // basename: icon_phone2;
   // dirname: images;
   // ext: .png;
-  // path: icon-phone2.png;
-  // fullname: icon-phone2-png;
+  // path: icon_phone2.png;
+  // fullname: icon_phone2-png;
   // mime: image/png;
   // hash: c6cee64bab7ab4355a06bf7acf810e8c;
-  background-image: image-url('icon-phone2.png');
+  background-image: image-url('icon_phone2.png');
 }
 
-%index-t1-png {
+%icon_phone_w-png {
+  // Available properties:
+  // prefix: ;
+  // width: 33;
+  // height: 33;
+  // filename: icon_phone_w.png;
+  // basename: icon_phone_w;
+  // dirname: images;
+  // ext: .png;
+  // path: icon_phone_w.png;
+  // fullname: icon_phone_w-png;
+  // mime: image/png;
+  // hash: 73ad1c20f052476b694e5e3a5d8d98e5;
+  background-image: image-url('icon_phone_w.png');
+}
+
+%index_t1-png {
   // Available properties:
   // prefix: ;
   // width: 677;
   // height: 96;
-  // filename: index-t1.png;
-  // basename: index-t1;
+  // filename: index_t1.png;
+  // basename: index_t1;
   // dirname: images;
   // ext: .png;
-  // path: index-t1.png;
-  // fullname: index-t1-png;
+  // path: index_t1.png;
+  // fullname: index_t1-png;
   // mime: image/png;
   // hash: 010cee7162fa68b47103af887c8be29e;
-  background-image: image-url('index-t1.png');
+  background-image: image-url('index_t1.png');
 }
 
-%index-t2-png {
+%index_t2-png {
   // Available properties:
   // prefix: ;
   // width: 641;
   // height: 71;
-  // filename: index-t2.png;
-  // basename: index-t2;
+  // filename: index_t2.png;
+  // basename: index_t2;
   // dirname: images;
   // ext: .png;
-  // path: index-t2.png;
-  // fullname: index-t2-png;
+  // path: index_t2.png;
+  // fullname: index_t2-png;
   // mime: image/png;
   // hash: b8d546a29fe9d8ad9f87fb7724c8f339;
-  background-image: image-url('index-t2.png');
-}
-
-%logo-inline-png {
-  // Available properties:
-  // prefix: ;
-  // width: 106;
-  // height: 36;
-  // filename: logo-inline.png;
-  // basename: logo-inline;
-  // dirname: images;
-  // ext: .png;
-  // path: logo-inline.png;
-  // fullname: logo-inline-png;
-  // mime: image/png;
-  // hash: ab25d3bdc125b5c6e0ab2284be5a8990;
-  background-image: image-url('logo-inline.png');
-}
-
-%logo-white-inline-png {
-  // Available properties:
-  // prefix: ;
-  // width: 133;
-  // height: 47;
-  // filename: logo-white-inline.png;
-  // basename: logo-white-inline;
-  // dirname: images;
-  // ext: .png;
-  // path: logo-white-inline.png;
-  // fullname: logo-white-inline-png;
-  // mime: image/png;
-  // hash: 3ad82fe2abc958450072391dae642599;
-  background-image: image-url('logo-white-inline.png');
+  background-image: image-url('index_t2.png');
 }
 
 %logo-png {
@@ -778,340 +767,372 @@ $compass-imagehelper-imagesmap: (
   background-image: image-url('logo.png');
 }
 
-%p2-t1-png {
+%logo_inline-png {
+  // Available properties:
+  // prefix: ;
+  // width: 106;
+  // height: 36;
+  // filename: logo_inline.png;
+  // basename: logo_inline;
+  // dirname: images;
+  // ext: .png;
+  // path: logo_inline.png;
+  // fullname: logo_inline-png;
+  // mime: image/png;
+  // hash: ab25d3bdc125b5c6e0ab2284be5a8990;
+  background-image: image-url('logo_inline.png');
+}
+
+%logo_white_inline-png {
+  // Available properties:
+  // prefix: ;
+  // width: 133;
+  // height: 47;
+  // filename: logo_white_inline.png;
+  // basename: logo_white_inline;
+  // dirname: images;
+  // ext: .png;
+  // path: logo_white_inline.png;
+  // fullname: logo_white_inline-png;
+  // mime: image/png;
+  // hash: 3ad82fe2abc958450072391dae642599;
+  background-image: image-url('logo_white_inline.png');
+}
+
+%p2_t1-png {
   // Available properties:
   // prefix: ;
   // width: 393;
   // height: 28;
-  // filename: p2-t1.png;
-  // basename: p2-t1;
+  // filename: p2_t1.png;
+  // basename: p2_t1;
   // dirname: images;
   // ext: .png;
-  // path: p2-t1.png;
-  // fullname: p2-t1-png;
+  // path: p2_t1.png;
+  // fullname: p2_t1-png;
   // mime: image/png;
   // hash: 0ec4dfd76eb2b5c792a7e7d0c366a608;
-  background-image: image-url('p2-t1.png');
+  background-image: image-url('p2_t1.png');
 }
 
-%p2-t2-png {
+%p2_t2-png {
   // Available properties:
   // prefix: ;
   // width: 721;
   // height: 109;
-  // filename: p2-t2.png;
-  // basename: p2-t2;
+  // filename: p2_t2.png;
+  // basename: p2_t2;
   // dirname: images;
   // ext: .png;
-  // path: p2-t2.png;
-  // fullname: p2-t2-png;
+  // path: p2_t2.png;
+  // fullname: p2_t2-png;
   // mime: image/png;
   // hash: 679cbbdd13128b82b5e4b5379975449a;
-  background-image: image-url('p2-t2.png');
+  background-image: image-url('p2_t2.png');
 }
 
-%p3-t1-png {
+%p3_t1-png {
   // Available properties:
   // prefix: ;
   // width: 274;
   // height: 27;
-  // filename: p3-t1.png;
-  // basename: p3-t1;
+  // filename: p3_t1.png;
+  // basename: p3_t1;
   // dirname: images;
   // ext: .png;
-  // path: p3-t1.png;
-  // fullname: p3-t1-png;
+  // path: p3_t1.png;
+  // fullname: p3_t1-png;
   // mime: image/png;
   // hash: 7eb89763300012850936e0b997937872;
-  background-image: image-url('p3-t1.png');
+  background-image: image-url('p3_t1.png');
 }
 
-%p3-t2-png {
+%p3_t2-png {
   // Available properties:
   // prefix: ;
   // width: 367;
   // height: 106;
-  // filename: p3-t2.png;
-  // basename: p3-t2;
+  // filename: p3_t2.png;
+  // basename: p3_t2;
   // dirname: images;
   // ext: .png;
-  // path: p3-t2.png;
-  // fullname: p3-t2-png;
+  // path: p3_t2.png;
+  // fullname: p3_t2-png;
   // mime: image/png;
   // hash: dc53cf0fd4820f3cfbb8c50c4f98ebea;
-  background-image: image-url('p3-t2.png');
+  background-image: image-url('p3_t2.png');
 }
 
-%p4-t1-png {
+%p4_t1-png {
   // Available properties:
   // prefix: ;
   // width: 305;
   // height: 36;
-  // filename: p4-t1.png;
-  // basename: p4-t1;
+  // filename: p4_t1.png;
+  // basename: p4_t1;
   // dirname: images;
   // ext: .png;
-  // path: p4-t1.png;
-  // fullname: p4-t1-png;
+  // path: p4_t1.png;
+  // fullname: p4_t1-png;
   // mime: image/png;
   // hash: 41305fa7aa4a6b82cfd5f37c10c6671e;
-  background-image: image-url('p4-t1.png');
+  background-image: image-url('p4_t1.png');
 }
 
-%p4-t2-png {
+%p4_t2-png {
   // Available properties:
   // prefix: ;
   // width: 362;
   // height: 27;
-  // filename: p4-t2.png;
-  // basename: p4-t2;
+  // filename: p4_t2.png;
+  // basename: p4_t2;
   // dirname: images;
   // ext: .png;
-  // path: p4-t2.png;
-  // fullname: p4-t2-png;
+  // path: p4_t2.png;
+  // fullname: p4_t2-png;
   // mime: image/png;
   // hash: 89bb566cd2de4669decc74a4c40ecbdd;
-  background-image: image-url('p4-t2.png');
+  background-image: image-url('p4_t2.png');
 }
 
-%p4-t3-png {
+%p4_t3-png {
   // Available properties:
   // prefix: ;
   // width: 548;
   // height: 157;
-  // filename: p4-t3.png;
-  // basename: p4-t3;
+  // filename: p4_t3.png;
+  // basename: p4_t3;
   // dirname: images;
   // ext: .png;
-  // path: p4-t3.png;
-  // fullname: p4-t3-png;
+  // path: p4_t3.png;
+  // fullname: p4_t3-png;
   // mime: image/png;
   // hash: 7f188f8dd674fd958e12511dd31d553d;
-  background-image: image-url('p4-t3.png');
+  background-image: image-url('p4_t3.png');
 }
 
-%p4-t4-png {
+%p4_t4-png {
   // Available properties:
   // prefix: ;
   // width: 303;
   // height: 66;
-  // filename: p4-t4.png;
-  // basename: p4-t4;
+  // filename: p4_t4.png;
+  // basename: p4_t4;
   // dirname: images;
   // ext: .png;
-  // path: p4-t4.png;
-  // fullname: p4-t4-png;
+  // path: p4_t4.png;
+  // fullname: p4_t4-png;
   // mime: image/png;
   // hash: fdaa6c5df7c051580b386531b9e983ef;
-  background-image: image-url('p4-t4.png');
+  background-image: image-url('p4_t4.png');
 }
 
-%p5-a1-png {
+%p5_a1-png {
   // Available properties:
   // prefix: ;
   // width: 173;
   // height: 243;
-  // filename: p5-a1.png;
-  // basename: p5-a1;
+  // filename: p5_a1.png;
+  // basename: p5_a1;
   // dirname: images;
   // ext: .png;
-  // path: p5-a1.png;
-  // fullname: p5-a1-png;
+  // path: p5_a1.png;
+  // fullname: p5_a1-png;
   // mime: image/png;
   // hash: ff2a27c785b357b450c2d633d9b10bae;
-  background-image: image-url('p5-a1.png');
+  background-image: image-url('p5_a1.png');
 }
 
-%p5-a2-png {
+%p5_a2-png {
   // Available properties:
   // prefix: ;
   // width: 173;
   // height: 243;
-  // filename: p5-a2.png;
-  // basename: p5-a2;
+  // filename: p5_a2.png;
+  // basename: p5_a2;
   // dirname: images;
   // ext: .png;
-  // path: p5-a2.png;
-  // fullname: p5-a2-png;
+  // path: p5_a2.png;
+  // fullname: p5_a2-png;
   // mime: image/png;
   // hash: ff87e2233c3fcc3ecf60534f4a9a664a;
-  background-image: image-url('p5-a2.png');
+  background-image: image-url('p5_a2.png');
 }
 
-%p5-a3-png {
+%p5_a3-png {
   // Available properties:
   // prefix: ;
   // width: 174;
   // height: 243;
-  // filename: p5-a3.png;
-  // basename: p5-a3;
+  // filename: p5_a3.png;
+  // basename: p5_a3;
   // dirname: images;
   // ext: .png;
-  // path: p5-a3.png;
-  // fullname: p5-a3-png;
+  // path: p5_a3.png;
+  // fullname: p5_a3-png;
   // mime: image/png;
   // hash: b9577975710e52dfffa011112ec875ce;
-  background-image: image-url('p5-a3.png');
+  background-image: image-url('p5_a3.png');
 }
 
-%p5-n1-png {
+%p5_n1-png {
   // Available properties:
   // prefix: ;
   // width: 188;
   // height: 62;
-  // filename: p5-n1.png;
-  // basename: p5-n1;
+  // filename: p5_n1.png;
+  // basename: p5_n1;
   // dirname: images;
   // ext: .png;
-  // path: p5-n1.png;
-  // fullname: p5-n1-png;
+  // path: p5_n1.png;
+  // fullname: p5_n1-png;
   // mime: image/png;
   // hash: 28b852514d6f48d83bf7a1afe05e9e20;
-  background-image: image-url('p5-n1.png');
+  background-image: image-url('p5_n1.png');
 }
 
-%p5-t1-png {
+%p5_t1-png {
   // Available properties:
   // prefix: ;
   // width: 393;
   // height: 38;
-  // filename: p5-t1.png;
-  // basename: p5-t1;
+  // filename: p5_t1.png;
+  // basename: p5_t1;
   // dirname: images;
   // ext: .png;
-  // path: p5-t1.png;
-  // fullname: p5-t1-png;
+  // path: p5_t1.png;
+  // fullname: p5_t1-png;
   // mime: image/png;
   // hash: 0af8f52ca0729604c3b408927b58bcca;
-  background-image: image-url('p5-t1.png');
+  background-image: image-url('p5_t1.png');
 }
 
-%p5-t2-png {
+%p5_t2-png {
   // Available properties:
   // prefix: ;
   // width: 419;
   // height: 24;
-  // filename: p5-t2.png;
-  // basename: p5-t2;
+  // filename: p5_t2.png;
+  // basename: p5_t2;
   // dirname: images;
   // ext: .png;
-  // path: p5-t2.png;
-  // fullname: p5-t2-png;
+  // path: p5_t2.png;
+  // fullname: p5_t2-png;
   // mime: image/png;
   // hash: 06a96366fb603675df3b0e3f6e5a7f90;
-  background-image: image-url('p5-t2.png');
+  background-image: image-url('p5_t2.png');
 }
 
-%p5-t3-png {
+%p5_t3-png {
   // Available properties:
   // prefix: ;
   // width: 508;
   // height: 57;
-  // filename: p5-t3.png;
-  // basename: p5-t3;
+  // filename: p5_t3.png;
+  // basename: p5_t3;
   // dirname: images;
   // ext: .png;
-  // path: p5-t3.png;
-  // fullname: p5-t3-png;
+  // path: p5_t3.png;
+  // fullname: p5_t3-png;
   // mime: image/png;
   // hash: 888195c8a27297e316ce1d498c97ebfb;
-  background-image: image-url('p5-t3.png');
+  background-image: image-url('p5_t3.png');
 }
 
-%p5-t4-png {
+%p5_t4-png {
   // Available properties:
   // prefix: ;
   // width: 666;
   // height: 3;
-  // filename: p5-t4.png;
-  // basename: p5-t4;
+  // filename: p5_t4.png;
+  // basename: p5_t4;
   // dirname: images;
   // ext: .png;
-  // path: p5-t4.png;
-  // fullname: p5-t4-png;
+  // path: p5_t4.png;
+  // fullname: p5_t4-png;
   // mime: image/png;
   // hash: 08377c949e2a938405dc689bbeee675c;
-  background-image: image-url('p5-t4.png');
+  background-image: image-url('p5_t4.png');
 }
 
-%p6-t1-png {
+%p6_t1-png {
   // Available properties:
   // prefix: ;
   // width: 290;
   // height: 47;
-  // filename: p6-t1.png;
-  // basename: p6-t1;
+  // filename: p6_t1.png;
+  // basename: p6_t1;
   // dirname: images;
   // ext: .png;
-  // path: p6-t1.png;
-  // fullname: p6-t1-png;
+  // path: p6_t1.png;
+  // fullname: p6_t1-png;
   // mime: image/png;
   // hash: ecc2686c72c748c75cdf200f99adf522;
-  background-image: image-url('p6-t1.png');
+  background-image: image-url('p6_t1.png');
 }
 
-%p6-t2-png {
+%p6_t2-png {
   // Available properties:
   // prefix: ;
   // width: 473;
   // height: 180;
-  // filename: p6-t2.png;
-  // basename: p6-t2;
+  // filename: p6_t2.png;
+  // basename: p6_t2;
   // dirname: images;
   // ext: .png;
-  // path: p6-t2.png;
-  // fullname: p6-t2-png;
+  // path: p6_t2.png;
+  // fullname: p6_t2-png;
   // mime: image/png;
   // hash: 60582db82517ca25382b9e7fc1fffcd5;
-  background-image: image-url('p6-t2.png');
+  background-image: image-url('p6_t2.png');
 }
 
-%prof-1-jpg {
+%prof_1-jpg {
   // Available properties:
   // prefix: ;
   // width: 1440;
   // height: 1018;
-  // filename: prof-1.jpg;
-  // basename: prof-1;
+  // filename: prof_1.jpg;
+  // basename: prof_1;
   // dirname: images;
   // ext: .jpg;
-  // path: prof-1.jpg;
-  // fullname: prof-1-jpg;
+  // path: prof_1.jpg;
+  // fullname: prof_1-jpg;
   // mime: image/jpeg;
   // hash: 6dc77ba010d99b637c5d8a09cb67cc7c;
-  background-image: image-url('prof-1.jpg');
+  background-image: image-url('prof_1.jpg');
 }
 
-%prof-2-jpg {
+%prof_2-jpg {
   // Available properties:
   // prefix: ;
   // width: 1440;
   // height: 1018;
-  // filename: prof-2.jpg;
-  // basename: prof-2;
+  // filename: prof_2.jpg;
+  // basename: prof_2;
   // dirname: images;
   // ext: .jpg;
-  // path: prof-2.jpg;
-  // fullname: prof-2-jpg;
+  // path: prof_2.jpg;
+  // fullname: prof_2-jpg;
   // mime: image/jpeg;
   // hash: 7937d1f42ec1d9d6cefbcc5145937bbb;
-  background-image: image-url('prof-2.jpg');
+  background-image: image-url('prof_2.jpg');
 }
 
-%prof-3-jpg {
+%prof_3-jpg {
   // Available properties:
   // prefix: ;
   // width: 1440;
   // height: 1018;
-  // filename: prof-3.jpg;
-  // basename: prof-3;
+  // filename: prof_3.jpg;
+  // basename: prof_3;
   // dirname: images;
   // ext: .jpg;
-  // path: prof-3.jpg;
-  // fullname: prof-3-jpg;
+  // path: prof_3.jpg;
+  // fullname: prof_3-jpg;
   // mime: image/jpeg;
   // hash: e3a360f5ae10ba94719953c5f9606017;
-  background-image: image-url('prof-3.jpg');
+  background-image: image-url('prof_3.jpg');
 }
 
 %scrollBtn-png {

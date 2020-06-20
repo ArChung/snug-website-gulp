@@ -64,15 +64,24 @@ function initPages() {
 }
 
 function initModal() {
+  const md = $("#modal")
   $('.popBtn').click(function () {
     const id = $(this).attr('data-pop');
 
-    $(".fade-modal").find('img').attr('src', `./images/prof-${id}.jpg`)
+    md.find('img').attr('src', "");
+    md.find('img').attr('src', `./images/prof-${id}.jpg`)
 
-    $(".fade-modal").modal({
-      fadeDuration: 200
-    });
+    md.removeClass('hide');
   });
+
+  md.find('.bg').click(function(){
+    md.addClass('hide');
+  });
+
+  md.find('.clozBtn').click(function(){
+    md.addClass('hide');
+  });
+
 }
 
 

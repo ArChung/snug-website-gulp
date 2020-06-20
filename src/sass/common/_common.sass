@@ -64,7 +64,7 @@ h1,h2,p
   margin-top: 25px
 
 .logo-inline
-  +bg('logo-inline.png')
+  +bg('logo_inline.png')
   margin-top: -4px
   margin-right: 3px
 
@@ -76,20 +76,20 @@ h1,h2,p
     justify-content: center
 
 .logo-inline2
-  +bg('logo-white-inline.png')
+  +bg('logo_white_inline.png')
   margin-top: -4px
   margin-right: 3px
 
 .icon-fb
-  +bg('icon-fb.png')
+  +bg('icon_fb.png')
   margin: 0 10px
 
 .icon-line
-  +bg('icon-line.png')
+  +bg('icon_line.png')
   margin: 0 10px
 
 .icon-phone2
-  +bg('icon-phone2.png')
+  +bg('icon_phone2.png')
   margin: 0 10px
 
 .tempHide
@@ -111,5 +111,33 @@ h1,h2,p
   z-index: 200
   padding: 15px
 .modal
-  max-width: 1024px
+  // max-width: 1024px
+  position: fixed
+  z-index: 100
+  top: 0
+  left: 0
   width: 100%
+  height: 100%
+  display: flex
+  justify-content: center
+  align-items: center
+  padding: 50px 250px
+  +phone
+    padding: 50px 25px
+  .bg
+    position: absolute
+    top: 0
+    left: 0
+    width: 100%
+    height: 100%
+    z-index: -1
+    background-color: rgba(black,.7)
+
+  .modal-container
+    max-width: 960px
+    position: relative
+    .clozBtn  
+      +bg('cloz.png')
+      position: absolute
+      top: -60px
+      right: -9px
