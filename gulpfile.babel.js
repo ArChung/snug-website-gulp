@@ -45,14 +45,16 @@ export function copy() {
   return gulp
     .src([
       "./src/**/**",
-      "!src/js/**/**",
+      "!src/js/sections/**",
+      "!src/js/tool/**",
+      "!src/js/all.js",
       "!src/sass/**/**",
       "!src/conponents/**/**",
       "!src/views/**/**",
       "!src/**/*.ejs",
       "!src/**/*.html",
       "!src/css/**/*.css",
-      "!src/images/**/**",
+      "!src/img/images/**/**",
     ])
     .pipe(gulp.dest("./public"))
 }
@@ -77,9 +79,9 @@ export function ejs() {
         return file.frontMatter
       })
     )
-    .pipe(useref())
-    .pipe($.if('*.js', terser()))
-    .pipe($.if('*.css', $.cleanCss()))
+    // .pipe(useref())
+    // .pipe($.if('*.js', terser()))
+    // .pipe($.if('*.css', $.cleanCss()))
     .pipe(gulp.dest("./public"))
     .pipe($.if(!envIsPro, browserSync.stream()))
 }
@@ -115,11 +117,11 @@ export function sass() {
 
 
 export function goSassImage() {
-  return gulp.src('./src/images/**/*.+(jpeg|jpg|png|gif|svg)')
+  return gulp.src('./src/img/images/**/*.+(jpeg|jpg|png|gif|svg)')
     .pipe(sassImage({
       targetFile: '_images_data.scss', // 處理完的 SCSS 檔名
       css_path: './src/css', // CSS 檔案位置
-      images_path: './src/images', // image 檔案位置
+      images_path: './src/img/images', // image 檔案位置
       includeData: false, // 是否將 image 加入到 SCSS 中
     }))
     .pipe(gulp.dest('src/sass')); // 處理後的 SCSS 檔放位置
@@ -165,9 +167,9 @@ export function babel() {
  *****************************************************/
 export function imageMin() {
   return gulp
-    .src("./src/images/*")
+    .src("./src/img/images/*")
     .pipe($.if(envIsPro, $.imagemin()))
-    .pipe(gulp.dest("./public/images"))
+    .pipe(gulp.dest("./public/img/images"))
     .pipe($.if(envIsPro, browserSync.stream()))
 
 }
@@ -194,7 +196,7 @@ export function watch() {
     sass
   )
   gulp.watch("./src/js/**/*.js", babel)
-  gulp.watch("./src/images/**/*.+(jpeg|jpg|png|gif|svg)", gulp.series(goSassImage, imageMin));
+  gulp.watch("./src/img/images/**/*.+(jpeg|jpg|png|gif|svg)", gulp.series(goSassImage, imageMin));
   console.log("watching file ~")
 }
 
