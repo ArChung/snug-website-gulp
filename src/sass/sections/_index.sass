@@ -220,9 +220,32 @@
       left: 50%
       transform: translate(-50%, 0)
 
+
+.p7
+  height: 60vw
+  position: relative
+  +coverBg('bg7.jpg')
+  background-position: 50% 100%
+  
+  .content
+    padding-top: 45vw
+    .btn
+      +bg('btn.png')
+      display: block
+      margin: 0 auto
+      margin-top: 20px
+      // +dTime
+      &:hover
+        opacity: .7
+
+  +phone
+    +bgi('bg7_m.jpg')
+    height: 118vw
+    .content
+      padding-top: 83vw
 .store
   background-color: white
-  padding: 100px 0
-  min-height: 600px
+  // padding: 100px 0
+  // min-height: 600px
   .content
     text-align: center

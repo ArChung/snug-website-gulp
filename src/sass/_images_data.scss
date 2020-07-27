@@ -186,6 +186,21 @@ $compass-imagehelper-imagesmap: (
     height: '902',
     hash: '332c5589a04ba492dd5802e9dbcd941d'
   ),
+  'bg7.jpg': (
+    width: '1600',
+    height: '983',
+    hash: 'db028207e35ba9f5655ea09a62691a93'
+  ),
+  'bg7_m.jpg': (
+    width: '1014',
+    height: '1200',
+    hash: '822d9d7cccb9bd297e1e84f68fc4818c'
+  ),
+  'btn.png': (
+    width: '427',
+    height: '89',
+    hash: '1e1492bc786379aae8d289144b6741f7'
+  ),
   'cloz.png': (
     width: '50',
     height: '50',
@@ -365,21 +380,6 @@ $compass-imagehelper-imagesmap: (
     width: '104',
     height: '104',
     hash: 'b3230bcdd47fb64d5f4ede5836327dc1'
-  ),
-  'prof/襪子類MIT.jpg': (
-    width: '2340',
-    height: '1654',
-    hash: '8a336041716b918110e111e9d21f2508'
-  ),
-  'prof/金選-襪子.jpg': (
-    width: '2340',
-    height: '1654',
-    hash: 'fa87c43bc9178e0fa99277b330a193c0'
-  ),
-  'prof/阿摩尼亞99-01.jpg': (
-    width: '1158',
-    height: '800',
-    hash: 'd79545bb99ecded7ce312168dcb5b48d'
   ),
 );
 
@@ -573,6 +573,54 @@ $compass-imagehelper-imagesmap: (
   // mime: image/jpeg;
   // hash: 332c5589a04ba492dd5802e9dbcd941d;
   background-image: image-url('bg6_m.jpg');
+}
+
+%bg7-jpg {
+  // Available properties:
+  // prefix: ;
+  // width: 1600;
+  // height: 983;
+  // filename: bg7.jpg;
+  // basename: bg7;
+  // dirname: images;
+  // ext: .jpg;
+  // path: bg7.jpg;
+  // fullname: bg7-jpg;
+  // mime: image/jpeg;
+  // hash: db028207e35ba9f5655ea09a62691a93;
+  background-image: image-url('bg7.jpg');
+}
+
+%bg7_m-jpg {
+  // Available properties:
+  // prefix: ;
+  // width: 1014;
+  // height: 1200;
+  // filename: bg7_m.jpg;
+  // basename: bg7_m;
+  // dirname: images;
+  // ext: .jpg;
+  // path: bg7_m.jpg;
+  // fullname: bg7_m-jpg;
+  // mime: image/jpeg;
+  // hash: 822d9d7cccb9bd297e1e84f68fc4818c;
+  background-image: image-url('bg7_m.jpg');
+}
+
+%btn-png {
+  // Available properties:
+  // prefix: ;
+  // width: 427;
+  // height: 89;
+  // filename: btn.png;
+  // basename: btn;
+  // dirname: images;
+  // ext: .png;
+  // path: btn.png;
+  // fullname: btn-png;
+  // mime: image/png;
+  // hash: 1e1492bc786379aae8d289144b6741f7;
+  background-image: image-url('btn.png');
 }
 
 %cloz-png {
@@ -1149,53 +1197,5 @@ $compass-imagehelper-imagesmap: (
   // mime: image/png;
   // hash: b3230bcdd47fb64d5f4ede5836327dc1;
   background-image: image-url('scrollBtn.png');
-}
-
-%prof-襪子類MIT-jpg {
-  // Available properties:
-  // prefix: ;
-  // width: 2340;
-  // height: 1654;
-  // filename: 襪子類MIT.jpg;
-  // basename: 襪子類MIT;
-  // dirname: prof;
-  // ext: .jpg;
-  // path: prof/襪子類MIT.jpg;
-  // fullname: prof-襪子類MIT-jpg;
-  // mime: image/jpeg;
-  // hash: 8a336041716b918110e111e9d21f2508;
-  background-image: image-url('prof/襪子類MIT.jpg');
-}
-
-%prof-金選-襪子-jpg {
-  // Available properties:
-  // prefix: ;
-  // width: 2340;
-  // height: 1654;
-  // filename: 金選-襪子.jpg;
-  // basename: 金選-襪子;
-  // dirname: prof;
-  // ext: .jpg;
-  // path: prof/金選-襪子.jpg;
-  // fullname: prof-金選-襪子-jpg;
-  // mime: image/jpeg;
-  // hash: fa87c43bc9178e0fa99277b330a193c0;
-  background-image: image-url('prof/金選-襪子.jpg');
-}
-
-%prof-阿摩尼亞99-01-jpg {
-  // Available properties:
-  // prefix: ;
-  // width: 1158;
-  // height: 800;
-  // filename: 阿摩尼亞99-01.jpg;
-  // basename: 阿摩尼亞99-01;
-  // dirname: prof;
-  // ext: .jpg;
-  // path: prof/阿摩尼亞99-01.jpg;
-  // fullname: prof-阿摩尼亞99-01-jpg;
-  // mime: image/jpeg;
-  // hash: d79545bb99ecded7ce312168dcb5b48d;
-  background-image: image-url('prof/阿摩尼亞99-01.jpg');
 }
 

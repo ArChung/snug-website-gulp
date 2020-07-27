@@ -109,7 +109,7 @@ export function sass() {
     .pipe($.postcss(plugins))
     .pipe($.if(envIsPro, $.cleanCss()))
     .pipe($.sourcemaps.write("."))
-    .pipe(gulp.dest("./public/css"))
+    .pipe(gulp.dest("./public/img/css"))
     .pipe($.if(!envIsPro, browserSync.stream()))
 }
 
@@ -156,7 +156,7 @@ export function babel() {
       )
     )
     .pipe($.sourcemaps.write("."))
-    .pipe(gulp.dest("./public/js"))
+    .pipe(gulp.dest("./public/img/js"))
     .pipe($.if(!envIsPro, browserSync.stream()))
 }
 
@@ -167,7 +167,7 @@ export function imageMin() {
   return gulp
     .src("./src/images/*")
     .pipe($.if(envIsPro, $.imagemin()))
-    .pipe(gulp.dest("./public/images"))
+    .pipe(gulp.dest("./public/img/images"))
     .pipe($.if(envIsPro, browserSync.stream()))
 
 }
