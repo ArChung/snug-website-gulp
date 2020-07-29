@@ -403,13 +403,27 @@ var simpleHide = simpleHide || {};
   }
 
   function isIe() {
-    if (document.documentMode || /Edge/.test(navigator.userAgent)) {
+    // if (document.documentMode || /Edge/.test(navigator.userAgent)) {
 
-      return true;
-    } else {
+    //     return true;
+    // } else {
 
-      return false;
-    }
+    //     return false;
+    // }
+
+    var ua = window.navigator.userAgent;
+    var msie = ua.indexOf("MSIE ");
+
+    if (msie > 0 || !!navigator.userAgent.match(/Trident.*rv\:11\./)) // If Internet Explorer, return version number
+      {
+        return true;
+
+      } else
+      // If another browser, return 0
+      {
+        return false;
+      }
+
 
   }
 
@@ -548,6 +562,9 @@ function init_base() {
 
 
 
+
+
+
 init_base();
 
 
@@ -555,6 +572,8 @@ inView.offset(150);
 
 
 $(document).ready(() => {
+
+
 
   console.log(ChungTool.getUrlParameter('info') === '2');
 
@@ -574,7 +593,6 @@ $(document).ready(() => {
   $(".storeBtn").click(() => {
     ChungTool.pageScrollAni($('.store').offset().top);
   });
-
 });
 
 function initPages() {
@@ -619,7 +637,7 @@ function initModal() {
     const id = $(this).attr('data-pop');
 
     md.find('img').attr('src', "");
-    md.find('img').attr('src', `./images/prof-${id}.jpg`);
+    md.find('img').attr('src', `./img/images/prof_${id}.jpg`);
 
     md.removeClass('hide');
   });

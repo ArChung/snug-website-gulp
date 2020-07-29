@@ -50,6 +50,17 @@
   <!-- footer END -->
 
   <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.js"></script>
+    
+  <script>
+    var ua = window.navigator.userAgent;
+    var isIE = /MSIE|Trident|Edge\//.test(ua);
+
+    if ( isIE ) {
+      $('.tempHide').removeClass('tempHide');
+      alert('本網站建議使用 Google chrome、Safari 瀏覽器瀏覽');
+    }
+  </script>
+  
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.js"></script>
   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/in-view@0.6.1/dist/in-view.min.js"></script>
   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/motus@2.0.5/dist/motus.web.js"></script>

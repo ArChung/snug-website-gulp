@@ -149,7 +149,7 @@
       </div>
     </div>
     <div class="stamp tempHide">
-      <img src="./img/images/p5-n1.png" alt="沈芝齊">
+      <img src="./img/images/p5_n1.png" alt="沈芝齊">
     </div>
   </section>
 
@@ -190,9 +190,9 @@
   <!-- footer -->
   <footer id="footer">
   <div class="socials df jc-c ai-c">
-    <a href="#" class='icon icon-fb'></a>
-    <a href="#" class='icon icon-line'></a>
-    <a href="#" class='df ai-c phone'>
+    <a target='_blank' href="https://www.facebook.com/supersocks.supersocks" class='icon icon-fb'></a>
+    <a target='_blank' href="https://line.me/R/ti/p/%40714rlrhg" class='icon icon-line'></a>
+    <a target='_blank' href="tel:+0800-885797" class='df ai-c phone'>
       <span class="icon icon-phone2"></span>
       <span class="txt green-txt">
         客服專線： 0800-885797
@@ -206,6 +206,17 @@
   <!-- footer END -->
 
   <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.js"></script>
+    
+  <script>
+    var ua = window.navigator.userAgent;
+    var isIE = /MSIE|Trident|Edge\//.test(ua);
+
+    if ( isIE ) {
+      $('.tempHide').removeClass('tempHide');
+      alert('本網站建議使用 Google chrome、Safari 瀏覽器瀏覽');
+    }
+  </script>
+  
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.js"></script>
   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/in-view@0.6.1/dist/in-view.min.js"></script>
   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/motus@2.0.5/dist/motus.web.js"></script>

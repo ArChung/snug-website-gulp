@@ -1,3 +1,6 @@
+
+
+
 init_base();
 
 
@@ -5,6 +8,8 @@ inView.offset(150);
 
 
 $(document).ready(() => {
+
+
 
   console.log(ChungTool.getUrlParameter('info') === '2');
 
@@ -24,7 +29,6 @@ $(document).ready(() => {
   $(".storeBtn").click(()=>{
     ChungTool.pageScrollAni($('.store').offset().top)
   })
-
 });
 
 function initPages() {
@@ -69,7 +73,7 @@ function initModal() {
     const id = $(this).attr('data-pop');
 
     md.find('img').attr('src', "");
-    md.find('img').attr('src', `./images/prof-${id}.jpg`)
+    md.find('img').attr('src', `./img/images/prof_${id}.jpg`)
 
     md.removeClass('hide');
   });
